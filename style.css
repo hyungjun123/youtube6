@@ -1,0 +1,210 @@
+.header1 {
+    border: 1px solid gray;
+    border-bottom: none;
+    padding: 0px 16px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header1 img {
+    cursor: pointer;
+}
+
+/*헤더 로그인 태그*/
+.headerlogin {
+    color: blue;
+    padding: 5px 11px;
+    cursor: pointer;
+}
+
+/*헤더 로그인 보더*/
+.headerloginbar {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 5px 11px;
+}
+
+
+input {
+    width: 500px;
+    font-size: 17px; 
+    
+    padding: 10px;
+}
+
+/*검색착 태그*/
+.searchbox {
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: 15fr 2fr;
+}
+
+/*돋보기*/
+.glass {
+    border: 1px solid gray;
+    padding: 1px 6px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+/*메인*/
+.wrapper {
+    border: 1px solid gray;
+    border-top: none;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+/*네비게이션*/
+.navigation {
+    padding: 12px 0px;
+    
+}
+
+/*네비게이션 내용물*/
+.item {
+    padding: 10px;
+    cursor: pointer;   
+    display: flex;
+    align-items: center; 
+}
+
+.item:hover {
+    background-color: #e9e9e9;
+}
+
+/*아이템 사진 패딩*/
+.item img {
+    padding-left: 10px;
+}
+
+/*아이템 텍스트 패팅*/
+.itemtext {
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+/*아이템 경계선(보관함,시청기록)*/
+.itemline1 {
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+}
+
+/*아이템 경계선(로그인bar)*/
+.itemline2 {
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 13px;
+    font-size: 14px;
+}
+
+/*아이템 로그인*/
+.login2 {
+    border: 1px solid blue;
+    color: blue;
+    margin-right: 65px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.itemline3 {
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.itemline3text {
+    padding: 8px 24px;
+    padding-bottom: 0px;
+}
+
+/*헤더2를 모두 포함한 태그*/
+.contents {
+    background-color: #f8f8f8;
+    margin-left: 15px;
+}
+
+/*헤더2의 태그*/
+.header2 {
+    border: 1px solid gray;
+    padding: 10px;
+    border-right: none;
+    border-left: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/*헤더2의 내용물(전체,실시간 등)*/
+.box {
+    border: 1px solid gray;
+    border-radius: 16px;
+    padding: 5px 10px;
+    margin-right: 14px;
+    background-color:#f8f8f8;
+    cursor: pointer;
+}
+
+.box1 {
+    border: 1px solid gray;
+    border-radius: 16px;
+    padding: 5px 10px;
+    margin-right: 14px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: gainsboro;
+}
+
+/*비디오롤 덮는 태그*/
+.videosalign {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+}
+
+/*비디오 태그*/
+.videos {
+    border: 1px  solid black;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.videos img {
+    width: 100%;
+}
+
+.videostext {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    font-size: 16px;
+}
+
+
+.minitext {
+    color: gray;
+    font-size: 14px;
+}
+
